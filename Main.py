@@ -12,12 +12,10 @@ dictionaries = {
     },
 
     "Lang2": {
-        #Add words from another language here
+       "first Word" : "Meaning"
     },
 
-    "Lang3": {
-        #This is Language 3
-    }
+
 }
 
 # Function to search the selected dictionary
