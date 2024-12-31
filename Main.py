@@ -8,11 +8,15 @@ dictionaries = {
         "merci": "Thank you",
         "au revoir": "Goodbye",
         "viens": "Come",
-        "maison": "House",
+        "maison": "House.",
     },
 
     "Lang2": {
-        #Add words from another language
+        #Add words from another language here
+    },
+
+    "Lang3": {
+        #This is Language 3
     }
 }
 
