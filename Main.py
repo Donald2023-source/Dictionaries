@@ -12,7 +12,8 @@ dictionaries = {
     },
 
     "Lang2": {
-       "first Word" : "Meaning"
+       "first Word" : "Meaning",
+        "second": "meaning"
     },
 
 
