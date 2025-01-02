@@ -11,12 +11,58 @@ dictionaries = {
         "maison": "House.",
     },
 
-    "Lang2": {
-       "first Word" : "Meaning",
-        "second": "meaning"
+      "Igbo": {
+        "thank you": "daalu",
+        "please": "biko",
+        "yes": "ee",
+        "no": "mba",
+        "water": "mmiri",
+        "food": "nri",
+        "house": "ụlọ",
+        "book": "akwụkwọ",
+        "man": "nwoke",
+        "woman": "nwanyị"
     },
 
-
+   "Yourba": {
+         "thank you": "ẹ ṣeun",
+         "please": "ẹ jọ̀ọ́",
+         "yes": "béẹ́ni",
+         "no": "ràrà",
+         "water": "omi",
+         "food": "ounjẹ",
+         "house": "ilé",
+         "book": "ìwé",
+         "man": "ọkùnrin",
+         "woman": "obìnrin"
+    },
+ 
+   "Hausa": {
+         "thank you": "na gode",
+         "please": "don Allah",
+         "yes": "eh",
+         "no": "a'a",
+         "water": "ruwa",
+         "food": "abinci",
+         "house": "gida",
+         "book": "littafi",
+         "man": "namiji",
+         "woman": "mace"
+    },
+    
+   "Igala": {
+         "thank you": "anẹ",
+         "please": "ẹ biko",
+         "yes": "ẹẹ",
+         "no": "ọda",
+         "water": "ama",
+         "food": "nra",
+         "house": "ụla",
+         "book": "akwụkwọ",
+         "man": "ọmẹ",
+         "woman": "ọb’iyọ"
+    }
+    
 }
 
 # Function to search the selected dictionary
