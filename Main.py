@@ -11,13 +11,59 @@ dictionaries = {
         "maison": "House.",
     },
 
-    "Lang2": {
-       "first Word" : "Meaning",
-        "second": "meaning"
+      "Igbo": {
+        "thank you": "daalu",
+        "please": "biko",
+        "yes": "ee",
+        "no": "mba",
+        "water": "mmiri",
+        "food": "nri",
+        "house": "ụlọ",
+        "book": "akwụkwọ",
+        "man": "nwoke",
+        "woman": "nwanyị"
     },
     
 
-
+   "Yourba": {
+         "thank you": "ẹ ṣeun",
+         "please": "ẹ jọ̀ọ́",
+         "yes": "béẹ́ni",
+         "no": "ràrà",
+         "water": "omi",
+         "food": "ounjẹ",
+         "house": "ilé",
+         "book": "ìwé",
+         "man": "ọkùnrin",
+         "woman": "obìnrin"
+    },
+ 
+   "Hausa": {
+         "thank you": "na gode",
+         "please": "don Allah",
+         "yes": "eh",
+         "no": "a'a",
+         "water": "ruwa",
+         "food": "abinci",
+         "house": "gida",
+         "book": "littafi",
+         "man": "namiji",
+         "woman": "mace"
+    },
+    
+   "Igala": {
+         "thank you": "anẹ",
+         "please": "ẹ biko",
+         "yes": "ẹẹ",
+         "no": "ọda",
+         "water": "ama",
+         "food": "nra",
+         "house": "ụla",
+         "book": "akwụkwọ",
+         "man": "ọmẹ",
+         "woman": "ọb’iyọ"
+    }
+    
 }
 
 # Function to search the selected dictionary
@@ -38,9 +84,12 @@ def search_word():
 # Create the main application window
 root = tk.Tk()
 root.title("Multi-Language Dictionary")
+welcome_label = tk.Label(root, text="Welcome to our Dictionary", padx=200, pady=100, bg='blue', fg="white", font='Arial 16')
+welcome_label.pack()
+root.geometry("600x600")
 
 # Title
-title_label = tk.Label(root, text="Multi-Language Dictionary")
+title_label = tk.Label(root, text="Please select a Language")
 title_label.pack(pady=10)
 
 # Dropdown for Dictionary selection
@@ -56,7 +105,7 @@ entry = tk.Entry(root)
 entry.pack()
 
 # Search Button
-search_button = tk.Button(root, text="Search", command=search_word)
+search_button = tk.Button(root, text="Search", command=search_word, pady=10, padx=10)
 search_button.pack(pady=10)
 
 # Result Label
