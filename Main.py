@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# Dictionaries
+why# Dictionaries
 dictionaries = {
     
         "French": {
@@ -90,7 +90,16 @@ dictionaries = {
          "book": "akwụkwọ",
          "man": "ọmẹ",
          "woman": "ọb’iyọ"
-    }
+         "Head" : "Oji"
+         "Hand" : "Ówó"
+         "Forehead" : "Ógba Oji"
+         "Blood" : "Ebié"
+         "Breath :  "Imi"
+
+
+       
+
+#Like our page, share and make a comment
     
 }
 
