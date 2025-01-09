@@ -24,7 +24,9 @@ dictionaries = {
         "talk": "parler",
         "sleep": "dormir",
         "right": "droite",
-        "left": "gauche"
+        "left": "gauche",
+        "boy": "garçon",
+        "pencil": "crayon",
     },
 
 
@@ -39,6 +41,8 @@ dictionaries = {
         "book": "akwụkwọ",
         "man": "nwoke",
         "woman": "nwanyị"
+        "car"; "ụgbọ",
+        "plate": "ọsa",
     },
     
 
@@ -53,6 +57,8 @@ dictionaries = {
          "book": "ìwé",
          "man": "ọkùnrin",
          "woman": "obìnrin"
+         "table": "tẹbili",
+         "floor": "ile",
     },
  
    "Hausa": {
@@ -76,6 +82,8 @@ dictionaries = {
          "sleep": "baci",
          "right": "dama",
          "left" : "hagu"
+         "floor": "sakwara",
+         "three": "uku",
 
     },
     
@@ -95,6 +103,9 @@ dictionaries = {
          "Forehead" : "Ógba Oji"
          "Blood" : "Ebié"
          "Breath :  "Imi"
+         "four": "Őnáńá",
+         "bench": "Èkpé:,
+         
 
 
        
