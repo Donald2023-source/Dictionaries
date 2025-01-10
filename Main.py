@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 # Dictionaries
 dictionaries = {
-    
+
         "French": {
         "thank you": "merci",
         "please": "s'il vous plaît",
@@ -109,7 +109,7 @@ def search_word():
             f"The word '{word}' is not in the {selected_dictionary} dictionary.",
         )
 
-# Tkinter main Window
+
 root = tk.Tk()
 root.title("Multi-Language Dictionary")
 welcome_label = tk.Label(root, text="Welcome to our Dictionary", padx=200, pady=100, bg='blue', fg="white", font='Arial 16')
