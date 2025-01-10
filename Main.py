@@ -48,7 +48,18 @@ dictionaries = {
          "house": "gida",
          "book": "littafi",
          "man": "namiji",
-         "woman": "mace"
+         "woman": "mace",
+         "chair": "Kujera",
+         "bag" : "Jaka",
+         "walk" : "Tafiya",
+         "sit": "Zauna",
+         "leg" : "kafa",
+         "shoe" : "takalmi",
+         "talk" : 'magana',
+         "sleep": "baci",
+         "right": "dama",
+         "left" : "hagu"
+
     },
     
    "Igala": {
@@ -81,7 +92,7 @@ def search_word():
             f"The word '{word}' is not in the {selected_dictionary} dictionary.",
         )
 
-# Create the main application window
+# Tkinter main Window
 root = tk.Tk()
 root.title("Multi-Language Dictionary")
 welcome_label = tk.Label(root, text="Welcome to our Dictionary", padx=200, pady=100, bg='blue', fg="white", font='Arial 16')
@@ -92,7 +103,7 @@ root.geometry("600x600")
 title_label = tk.Label(root, text="Please select a Language")
 title_label.pack(pady=10)
 
-# Dropdown for Dictionary selection
+#Sekection menu
 dictionary_var = tk.StringVar(value="French")
 dictionary_menu = tk.OptionMenu(root, dictionary_var, *dictionaries.keys())
 dictionary_menu.pack()
