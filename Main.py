@@ -3,13 +3,30 @@ from tkinter import messagebox
 
 # Dictionaries
 dictionaries = {
-    "French": {
-        "bonjour": "Hello",
-        "merci": "Thank you",
-        "au revoir": "Goodbye",
-        "viens": "Come",
-        "maison": "House.",
+    
+        "French": {
+        "thank you": "merci",
+        "please": "s'il vous plaît",
+        "yes": "oui",
+        "no": "non",
+        "water": "eau",
+        "food": "nourriture",
+        "house": "maison",
+        "book": "livre",
+        "man": "homme",
+        "woman": "femme",
+        "chair": "chaise",
+        "bag": "sac",
+        "walk": "marcher",
+        "sit": "asseoir",
+        "leg": "jambe",
+        "shoe": "chaussure",
+        "talk": "parler",
+        "sleep": "dormir",
+        "right": "droite",
+        "left": "gauche"
     },
+
 
       "Igbo": {
         "thank you": "daalu",
