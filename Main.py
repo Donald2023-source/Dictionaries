@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# Dictionaries
+
 dictionaries = {
 
-        "French": {
+    "French": {
         "thank you": "merci",
         "please": "s'il vous plaît",
         "yes": "oui",
@@ -24,21 +24,9 @@ dictionaries = {
         "talk": "parler",
         "sleep": "dormir",
         "right": "droite",
-        "left": "gauche"
-    },
-
-
-      "Igbo": {
-        "thank you": "daalu",
-        "please": "biko",
-        "yes": "ee",
-        "no": "mba",
-        "water": "mmiri",
-        "food": "nri",
-        "house": "ụlọ",
-        "book": "akwụkwọ",
-        "man": "nwoke",
-        "woman": "nwanyị"
+        "left": "gauche",
+        "boy": "garçon",
+        "pencil": "crayon",
     },
     
 
@@ -52,13 +40,13 @@ dictionaries = {
          "house": "ilé",
          "book": "ìwé",
          "man": "ọkùnrin",
-         "woman": "obìnrin"
+         "woman": "obìnrin",
+         "table": "tẹbili",
+         "floor": "ile",
     },
  
    "Hausa": {
          "thank you": "na gode",
-         "please": "don Allah",
-         "yes": "eh",
          "no": "a'a",
          "water": "ruwa",
          "food": "abinci",
@@ -75,7 +63,9 @@ dictionaries = {
          "talk" : 'magana',
          "sleep": "baci",
          "right": "dama",
-         "left" : "hagu"
+         "left" : "hagu",
+         "floor": "sakwara",
+         "three": "uku",
 
     },
     
@@ -89,10 +79,19 @@ dictionaries = {
          "house": "ụla",
          "book": "akwụkwọ",
          "man": "ọmẹ",
-         "woman": "ọb’iyọ"
-    }
-    
+         "woman": "ọb’iyọ",
+         "Head" : "Oji",
+         "Hand" : "Ówó",
+         "Forehead" : "Ógba Oji",
+         "Blood" : "Ebié",
+         "Breath" :  "Imi",
+         "four": "Őnáńá",
+         "bench": "Èkpé",
+   }
 }
+
+       
+
 
 # Function to search the selected dictionary
 def search_word():
