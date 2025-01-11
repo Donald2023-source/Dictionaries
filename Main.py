@@ -31,18 +31,26 @@ dictionaries = {
     
 
    "Yourba": {
-         "thank you": "ẹ ṣeun",
-         "please": "ẹ jọ̀ọ́",
-         "yes": "béẹ́ni",
-         "no": "ràrà",
-         "water": "omi",
-         "food": "ounjẹ",
-         "house": "ilé",
-         "book": "ìwé",
-         "man": "ọkùnrin",
-         "woman": "obìnrin",
-         "table": "tẹbili",
-         "floor": "ile",
+        "thank you": "ẹ ṣeun",
+        "please": "ẹ jọ̀ọ́",
+        "yes": "béẹ́ni",
+        "no": "ràrà",
+        "water": "omi",
+        "food": "ounjẹ",
+        "house": "ilé",
+        "book": "ìwé",
+        "man": "ọkùnrin",
+        "woman": "obìnrin",
+        "table": "tẹ́bílì",
+        "floor": "ilé",
+        "child": "ọmọ",
+        "friend": "ọ̀rẹ́",
+        "sun": "oorun",
+        "moon": "osùpá",
+        "sky": "ọ̀run",
+        "fire": "iná",
+        "road": "ọ̀nà",
+        "money": "owo"
     },
  
    "Hausa": {
@@ -93,7 +101,7 @@ dictionaries = {
        
 
 
-# Function to search the selected dictionary
+# Search Word Function
 def search_word():
     selected_dictionary = dictionary_var.get()
     word = entry.get().strip().lower()  # Get user input, trim spaces, and convert to lowercase
