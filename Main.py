@@ -3,7 +3,6 @@ from tkinter import messagebox
 
 
 dictionaries = {
-
     "French": {
         "thank you": "merci",
         "please": "s'il vous plaît",
@@ -28,9 +27,9 @@ dictionaries = {
         "boy": "garçon",
         "pencil": "crayon",
     },
-    
 
-   "Yourba": {
+
+    "Yourba": {
         "thank you": "ẹ ṣeun",
         "please": "ẹ jọ̀ọ́",
         "yes": "béẹ́ni",
@@ -50,53 +49,79 @@ dictionaries = {
         "sky": "ọ̀run",
         "fire": "iná",
         "road": "ọ̀nà",
-        "money": "owo"
+        "money": "owo",
     },
- 
-   "Hausa": {
-         "thank you": "na gode",
-         "no": "a'a",
-         "water": "ruwa",
-         "food": "abinci",
-         "house": "gida",
-         "book": "littafi",
-         "man": "namiji",
-         "woman": "mace",
-         "chair": "Kujera",
-         "bag" : "Jaka",
-         "walk" : "Tafiya",
-         "sit": "Zauna",
-         "leg" : "kafa",
-         "shoe" : "takalmi",
-         "talk" : 'magana',
-         "sleep": "baci",
-         "right": "dama",
-         "left" : "hagu",
-         "floor": "sakwara",
-         "three": "uku",
 
-    },
     
-   "Igala": {
-         "thank you": "anẹ",
-         "please": "ẹ biko",
-         "yes": "ẹẹ",
-         "no": "ọda",
-         "water": "ama",
-         "food": "nra",
-         "house": "ụla",
-         "book": "akwụkwọ",
-         "man": "ọmẹ",
-         "woman": "ọb’iyọ",
-         "Head" : "Oji",
-         "Hand" : "Ówó",
-         "Forehead" : "Ógba Oji",
-         "Blood" : "Ebié",
-         "Breath" :  "Imi",
-         "four": "Őnáńá",
-         "bench": "Èkpé",
-   }
+    "Hausa": {
+        "thank you": "na gode",
+        "no": "a'a",
+        "water": "ruwa",
+        "food": "abinci",
+        "house": "gida",
+        "book": "littafi",
+        "man": "namiji",
+        "woman": "mace",
+        "chair": "Kujera",
+        "bag": "Jaka",
+        "walk": "Tafiya",
+        "sit": "Zauna",
+        "leg": "kafa",
+        "shoe": "takalmi",
+        "talk": "magana",
+        "sleep": "baci",
+        "right": "dama",
+        "left": "hagu",
+        "floor": "sakwara",
+        "three": "uku",
+    },
+
+
+    "Igala": {
+        "thank you": "anẹ",
+        "please": "ẹ biko",
+        "yes": "ẹẹ",
+        "no": "ọda",
+        "water": "ama",
+        "food": "nra",
+        "house": "ụla",
+        "book": "akwụkwọ",
+        "man": "ọmẹ",
+        "woman": "ọb’iyọ",
+        "Head": "Oji",
+        "Hand": "Ówó",
+        "Forehead": "Ógba Oji",
+        "Blood": "Ebié",
+        "Breath": "Imi",
+        "four": "Őnáńá",
+        "bench": "Èkpé",
+    },
+
+
+    "Igbo": {
+        "thank you": "daalụ",
+        "please": "biko",
+        "yes": "ee",
+        "no": "mba",
+        "water": "mmiri",
+        "food": "nri",
+        "house": "ụlọ",
+        "book": "akwụkwọ",
+        "man": "nwoke",
+        "woman": "nwaanyị",
+        "chair": "oche",
+        "bag": "akpa",
+        "walk": "ga ije",
+        "sit": "nọdụ",
+        "leg": "ukwu",
+        "shoe": "akpụkpọ ụkwụ",
+        "talk": "kwuo",
+        "sleep": "ụra",
+        "right": "aka nri",
+        "left": "aka ekpe",
+    },
 }
+
 
        
 
